@@ -28,3 +28,31 @@ function sayHi(name) { ... }
 - sayHi('Max');
 - 'Max' is an argument of the function therefore - for the name parameter to be precise.
 - Since both concepts obviously are extremely close connected, I will often say "let's define which arguments a function receives" or something comparable, since defining the arguments of a function in the end means that you set up its parameters (and vice-versa).
+
+## 126 Functions vs Methods
+- In an object, we have property/value pairs
+- A "method" is when a property has a function for a value
+
+```javascript
+const person = {
+    name: 'Doug',
+    greet: function greet() {
+        console.log('Hello there');
+    }
+}
+
+person.greet();
+```
+
+## 127 Functions are Objects
+```javascript
+function greet() {
+    const userName = 'Doug';
+    console.log('Hello ' + userName);
+}
+
+console.log(typeof greet);  // 'function' is the type
+console.dir(greet);         // Object properties show here
+
+greet();
+```
