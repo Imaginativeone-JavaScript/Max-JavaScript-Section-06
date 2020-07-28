@@ -8,4 +8,5 @@
 - Callback Functions & Functions in Functions
 - Default Arguments & Rest Operator
 
-
+## 124 Recapping Functions Knowledge - What We Know Thus Far
+- 
