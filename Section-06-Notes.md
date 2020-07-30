@@ -109,3 +109,29 @@ const someFunction = (choiceA, choiceB = DEFAULT_ARGUMENT);
 This keeps choiceB from being undefined within the function that uses it as a parameter.
 
 ## 137 Introducing Rest Parameters
+
+```javascript
+const sumUp = (a, b, c, d) => {}; // I need a variable amount of arguments
+
+sumUp(1, 2, 3, 4);
+sumUp(1, 2, 3, 4, 5);
+```
+
+I could use a loop...
+
+It looks like the spread operator: [...]
+
+```javascript
+const sumUp = (...numbers) => { // arguments get merged into an array inside the function
+                                // must be the LAST parameter
+                                // I can only use one of these
+  let sum = 0;
+  
+  for (const num of numbers) {
+    sum += num;
+  }
+  return sum;
+}
+```
+
+- Using the "function" keyword, and not arrow functions, I can use the "arguments" keyword.
