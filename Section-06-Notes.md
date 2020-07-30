@@ -135,3 +135,7 @@ const sumUp = (...numbers) => { // arguments get merged into an array inside the
 ```
 
 - Using the "function" keyword, and not arrow functions, I can use the "arguments" keyword.
+
+## 138 Creating Functions Inside of Functions
+- Locally scoped because of block scope
+- Usually, I want global functions
