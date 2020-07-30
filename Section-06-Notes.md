@@ -72,6 +72,13 @@ const start = function multiply(a, b) {
 }
 ```
 
+## 129 More Notes on Function Expressions
 - Using the latter technique, the function (on the right side of the assignment operator) doesn't store the FUNCTION in the hoisted global scope. Rather, "start" is stored there and "multiply" (takes some sort of lesser role?) As a matter of fact, "multiply" can be omitted. An anonymous function can be used.
 
 - Using Function Expressions forces me to define functions before I call them?
+
+## 130 Anonymous Functions
+- Single use
+- Used in eventListeners
+- Assigning anonymous functions to variables helps with debugging
+
