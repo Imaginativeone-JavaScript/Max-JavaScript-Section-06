@@ -149,4 +149,4 @@ const sumUp = (...numbers) => { // arguments get merged into an array inside the
 - Prepare my "to be called" function, which I don't call myself
 
 ## 142 call() and apply()
-- 
+- We'll look at these later
