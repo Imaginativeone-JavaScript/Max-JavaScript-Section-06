@@ -58,3 +58,20 @@ greet();
 ```
 
 ## 128 Function Expressions: Storing Functions in Variables
+- One way of making a function is this: **Function Declaration**
+```javascript
+function multiply(a, b) {
+    console.log(a*b);
+}
+```
+
+- Another way of making a function is this: **Function Expression**
+```javascript
+const start = function multiply(a, b) {
+    console.log(a*b);
+}
+```
+
+- Using the latter technique, the function (on the right side of the assignment operator) doesn't store the FUNCTION in the hoisted global scope. Rather, "start" is stored there and "multiply" (takes some sort of lesser role?) As a matter of fact, "multiply" can be omitted. An anonymous function can be used.
+
+- Using Function Expressions forces me to define functions before I call them?
