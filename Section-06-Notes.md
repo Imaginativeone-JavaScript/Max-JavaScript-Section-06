@@ -56,3 +56,5 @@ console.dir(greet);         // Object properties show here
 
 greet();
 ```
+
+## 128 Function Expressions: Storing Functions in Variables
