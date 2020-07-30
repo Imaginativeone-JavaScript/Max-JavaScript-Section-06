@@ -108,3 +108,4 @@ const someFunction = (choiceA, choiceB = DEFAULT_ARGUMENT);
 
 This keeps choiceB from being undefined within the function that uses it as a parameter.
 
+## 137 Introducing Rest Parameters
