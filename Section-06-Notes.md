@@ -97,4 +97,7 @@ const add2 = function(a, b) {
 - General Syntax: (arg1, arg2) => { ... } // ... = function body
 - No arguments: () => { ... }
 - Exactly one argument: arg => { ... }
-- Exactly one expression in function body: (a, b) => a + b
+- Exactly one expression in function body: (a, b) => a + b // can omit curly braces
+  - "return" must be omitted, there's an invisible return
+
+## 136 Default Arguments
