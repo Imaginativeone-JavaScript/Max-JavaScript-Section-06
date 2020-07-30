@@ -143,3 +143,6 @@ const sumUp = (...numbers) => { // arguments get merged into an array inside the
 ## 139 Understanding Callback Functions
 - The function is "called for me in the future".
 - Alternative to return
+
+## 140 Working with bind()
+- 
