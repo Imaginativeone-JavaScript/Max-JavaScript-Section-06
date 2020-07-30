@@ -139,3 +139,7 @@ const sumUp = (...numbers) => { // arguments get merged into an array inside the
 ## 138 Creating Functions Inside of Functions
 - Locally scoped because of block scope
 - Usually, I want global functions
+
+## 139 Understanding Callback Functions
+- The function is "called for me in the future".
+- Alternative to return
