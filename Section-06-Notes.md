@@ -82,3 +82,19 @@ const start = function multiply(a, b) {
 - Used in eventListeners
 - Assigning anonymous functions to variables helps with debugging
 
+## 133 Introducing Arrow Functions
+- Nested ternary expression example
+
+- General difference (saves time and code lines)
+```javascript
+const add = (a, b) => a + b;
+
+const add2 = function(a, b) {
+    return a + b;
+}
+```
+
+- General Syntax: (arg1, arg2) => { ... } // ... = function body
+- No arguments: () => { ... }
+- Exactly one argument: arg => { ... }
+- Exactly one expression in function body: (a, b) => a + b
