@@ -147,3 +147,6 @@ const sumUp = (...numbers) => { // arguments get merged into an array inside the
 ## 140 Working with bind()
 - Need to pass in a value, but don't want to directly execute a function
 - Prepare my "to be called" function, which I don't call myself
+
+## 142 call() and apply()
+- 
