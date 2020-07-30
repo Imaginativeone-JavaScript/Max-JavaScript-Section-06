@@ -101,3 +101,10 @@ const add2 = function(a, b) {
   - "return" must be omitted, there's an invisible return
 
 ## 136 Default Arguments
+
+```javascript
+const someFunction = (choiceA, choiceB = DEFAULT_ARGUMENT);
+```
+
+This keeps choiceB from being undefined within the function that uses it as a parameter.
+
